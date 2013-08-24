@@ -1,0 +1,29 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "quoted-printable-stream",
+  "version": "0.0.1",
+  "description": "Stream text input to quoted printable",
+  "main": "lib/quoted-printable-stream.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-quoted-printable-stream.git"
+  },
+  "keywords": [
+    "email",
+    "quoted-printable",
+    "mime"
+  ],
+  "author": "connrs",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "dependencies": {
+    "encode-quoted-printable": "~0.1.1"
+  }
+}
